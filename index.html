@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="ALL">
+  <meta name="title" content="portfolio">
+  <meta name="description" content="portfolio profile">
+  <meta name="keywords" content="portfolio profile">
+  <meta property="og:title" content="portfolio" />
+  <meta property="og:description" content="portfolio profile" />
+  <meta property="og:keywords" content="portfolio profile" />
+  <!-- <meta property="og:image" content="" />
+	<meta property="og:image:url" content="" />
+  <link rel="shortcut icon" href="" />
+	<link rel="icon" type="image/png" href="" />
+  <meta property="og:url" content="" /> -->
+  <title>portfolio</title>
+  <link rel="stylesheet" href="./css/font.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/head.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/main.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <h1 class="logo">
+        <a href="javascript:;">
+          <img src="./img/logo.png" alt="logo">
+        </a>
+      </h1>
+      <nav class="nav">
+        <ul class="menu_li">
+          <li>
+            <a class="menu_link" href="javascript:;" onclick="scrollButton('section_good_design')">좋은 디자인이란</a>
+          </li>
+          <li>
+            <a class="menu_link" href="javascript:;" onclick="scrollButton('section_benefit')">나를 어필합니다</a>
+          </li>
+          <li>
+            <a class="menu_link" href="javascript:;" onclick="scrollButton('section_portfollio')">포트폴리오</a>
+          </li>
+          <li>
+            <a class="menu_link" href="javascript:;" onclick="scrollButton('section_connect')">연락처</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <section class="visual_section">
+      <div class="wrapper">
+        <h2>좋은 디자인의 시작은<br /><span>공감</span>에서 시작됩니다.</h2>
+        <div class="visual_img">
+          <img src="./img/main_visual.png" alt="main visual">
+        </div>
+      </div>
+    </section>
+    <section class="section_good_design">
+      <div class="wrapper">
+        <div class="section_title_wrap">
+          <span class="section_title_top">하나</span>
+          <h3>내가 생각하는 <span>좋은 디자인</span>이란?</h3>
+        </div>
+        <p>
+          나에게만 보기 좋은 디자인, 나에게만 편한 디자인은 결코 좋은 디자인이 될 수 없습니다.<br />
+          디자인 작업과정에 몰두하다 보면 사용자의 입장을 간과할 때가 많습니다.<br />
+          디자인 요소는 심미적인 영향이 크지만, 사용자가 이용하기 편하도록 도와주는 직관적인 역활 또한 큽니다.<br />
+          수시로 사용자의 입장에 대입해보면서 레이아웃, 배치, 접근성 유도 등등 여러가지를 고려해야합니다.
+        </p>
+        <div class="block_box">
+          <div class="block_box_wrap">
+            <div class="block_box_layer"></div>
+            <div class="block_box_line">
+              <span class="block_box_box block_box_box1">접근성</span>
+              <span class="block_box_box block_box_box2">공감</span>
+              <span class="block_box_box block_box_box3">좋은 디자인이란</span>
+              <span class="block_box_box block_box_box4">편의</span>
+              <span class="block_box_box block_box_box5">사용자</span>
+            </div>
+            <div class="block_box_line">
+              <span class="block_box_box block_box_box6">소통</span>
+              <span class="block_box_box block_box_box7">감각을 열어요</span>
+              <span class="block_box_box block_box_box8">가독성</span>
+              <span class="block_box_box block_box_box9">톤앤매너</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_benefit">
+      <div class="wrapper">
+        <div class="section_title_wrap">
+          <span class="section_title_top">둘</span>
+          <h3>자랑스럽게 어필하는 <span>나의 장점</span></h3>
+        </div>
+        <ul class="benefit_list">
+          <li class="benefit_li benefit_empathy">
+            <span>Empathy</span>
+            <p>사용자의 입장에서 생각합니다.</p>
+          </li>
+          <li class="benefit_li benefit_idea">
+            <span>Idea</span>
+            <p>새로운 아이디어를 물색합니다.</p>
+          </li>
+          <li class="benefit_li benefit_trust">
+            <span>Trust</span>
+            <p>작업기한을 준수합니다.</p>
+          </li>
+          <li class="benefit_li benefit_grasp">
+            <span>Grasp</span>
+            <p>방향성 설정과 니즈 파악이 탁월합니다.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section_portfollio">
+      <div class="wrapper">
+        <div class="section_title_wrap">
+          <span class="section_title_top">셋</span>
+          <h3>다년간 쌓아온 <span>포트폴리오</span></h3>
+        </div>
+        <ul class="tab_list">
+          <li>
+            <button class="on">기업</button>
+          </li>
+          <li>
+            <button>병원</button>
+          </li>
+          <li>
+            <button>단체</button>
+          </li>
+          <li>
+            <button>랜딩</button>
+          </li>
+        </ul>
+        <div class="port_content">
+          <ul class="port_list">
+            <li>
+              <a href="javascript:;" target="_blank">
+                <!-- <img src="./img/main_visual.png" alt="site img"> -->
+                <div>
+                  <img src="./img/portfolio/esg_pc.jpg" alt="esg img">
+                </div>
+                <p>esg</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;" target="_blank">
+                <!-- <img src="./img/main_visual.png" alt="site img"> -->
+                <div>
+                  <img src="./img/portfolio/fiet_main.jpg" alt="fiet img">
+                </div>
+                <p>한솔산업</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;" target="_blank">
+                <!-- <img src="./img/main_visual.png" alt="site img"> -->
+                <div>
+                  <img src="./img/portfolio/gogo_main.jpg" alt="gogo img">
+                </div>
+                <p>한솔산업</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;" target="_blank">
+                <!-- <img src="./img/main_visual.png" alt="site img"> -->
+                <div>
+                  <img src="./img/portfolio/kd_main.jpg" alt="kd img">
+                </div>
+                <p>한솔산업</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;" target="_blank">
+                <!-- <img src="./img/main_visual.png" alt="site img"> -->
+                <div>
+                  <img src="./img/portfolio/korcham_main.jpg" alt="korcham img">
+                </div>
+                <p>한솔산업</p>
+              </a>
+            </li>
+            <li>
+              <a href="javascript:;" target="_blank">
+                <!-- <img src="./img/main_visual.png" alt="site img"> -->
+                <div>
+                  <img src="./img/portfolio/lsk_main.jpg" alt="lsk img">
+                </div>
+                <p>한솔산업</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <button class="more_btn">더보기 +</button>
+      </div>
+    </section>
+    <section class="section_info">
+      <div class="wrapper">
+        <div class="info_left">
+          <h4>Designer<span>.</span>Han</h4>
+          <div class="info_box">
+            <ul class="info_list">
+              <li>
+                <span>Name</span>
+                <p>한혜미</p>
+              </li>
+              <li>
+                <span>Birth</span>
+                <p>1994.01.05</p>
+              </li>
+              <li>
+                <span>E-mail</span>
+                <p>hanhm5861@namver.com</p>
+              </li>
+              <li>
+                <span>Phone</span>
+                <p>010.3873.5861</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="info_right">
+          <ul class="carrer_list">
+            <li>
+              <h5>2012~2014</h5>
+              <p>경인여대 시각디자인과 졸업</p>
+            </li>
+            <li>
+              <h5>2018~2019</h5>
+              <p>펜션 전문 홈페이지 제작 업체 '변화의 바람' 근무</p>
+            </li>
+            <li>
+              <h5>2019~</h5>
+              <p>웹 에이전시 '비젠소프트' 재직 중</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="section_info_bg">Carrer Profile</div>
+    </section>
+    <section class="section_connect">
+      <div class="wrapper">
+        <img src="./img/img_profile.png" alt="profile">
+        <h4>Would you like to work with me?</h4>
+        <span>+82 010-3873-5861</span>
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    <div class="wrapper">
+      <ul class="footer_info_list">
+        <li>
+          <span>Designer.</span>
+          <p>한혜미</p>
+        </li>
+        <li>
+          <span>E-mail.</span>
+          <p>hanhm5861@naver.com</p>
+        </li>
+        <li>
+          <span>Phone.</span>
+          <p>010.3873.5861</p>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="./js/common.js"></script>
+</body>
+</html>
